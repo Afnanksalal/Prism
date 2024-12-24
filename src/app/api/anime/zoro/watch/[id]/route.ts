@@ -1,7 +1,7 @@
 import { ANIME } from "@consumet/extensions";
 import { NextRequest, NextResponse } from "next/server";
 
-const zoro = new ANIME.Zoro();
+const zoro = new ANIME.Gogoanime();
 
 export async function GET(
   req: NextRequest,
